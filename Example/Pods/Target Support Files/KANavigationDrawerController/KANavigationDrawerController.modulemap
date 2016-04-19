@@ -1,0 +1,6 @@
+framework module KANavigationDrawerController {
+  umbrella header "KANavigationDrawerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - KANavigationDrawerController (0.1.0)
+
+DEPENDENCIES:
+  - KANavigationDrawerController (from `../`)
+
+EXTERNAL SOURCES:
+  KANavigationDrawerController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KANavigationDrawerController: 0b000450a153dcec1f2b9ef88370ba01ff729849
+
+COCOAPODS: 0.39.0

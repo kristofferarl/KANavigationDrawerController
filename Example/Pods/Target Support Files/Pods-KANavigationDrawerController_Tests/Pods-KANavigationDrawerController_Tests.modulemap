@@ -1,0 +1,6 @@
+framework module Pods_KANavigationDrawerController_Tests {
+  umbrella header "Pods-KANavigationDrawerController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

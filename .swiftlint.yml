@@ -1,0 +1,20 @@
+disabled_rules: # rule identifiers to exclude from running
+  - variable_name
+
+included: # paths to include during linting. `--path` is ignored if present.
+  - KANavigationDrawerController
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+
+force_cast: warning
+
+# parameterized rules are first parameterized as a warning level, then error level.
+line_length: 120
+
+type_body_length:
+  warning: 300
+  error: 500
+
+file_length:
+  warning: 500
+  error: 1200

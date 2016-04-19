@@ -1,0 +1,24 @@
+{
+  "name": "KANavigationDrawerController",
+  "version": "0.1.0",
+  "summary": "A short description of KANavigationDrawerController.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KANavigationDrawerController",
+  "license": "MIT",
+  "authors": {
+    "Kristoffer Arlefur": "kristoffer.arlefur@visma.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KANavigationDrawerController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KANavigationDrawerController/Classes/**/*",
+  "resource_bundles": {
+    "KANavigationDrawerController": [
+      "KANavigationDrawerController/Assets/*.png"
+    ]
+  }
+}
