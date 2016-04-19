@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KANavigationDrawerController_Example', :exclusive => true do
+  pod 'KANavigationDrawerController', :path => '../'
+end
+
+target 'KANavigationDrawerController_Tests', :exclusive => true do
+  pod 'KANavigationDrawerController', :path => '../'
+
+  
+end
