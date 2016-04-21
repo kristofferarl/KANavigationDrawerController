@@ -47,16 +47,13 @@ extension KANavigationDrawerPresentMenuAnimator : UIViewControllerAnimatedTransi
         toVC.view.frame = CGRect(x: -KANavigationDrawerHelper.menuWidth,
                                  y: 0,
                                  width: KANavigationDrawerHelper.menuWidth,
-                                 height: toVC.view.frame.size.height)
+                                 height: UIScreen.mainScreen().bounds.height)
 
         UIView.animateWithDuration(
             transitionDuration(transitionContext),
             animations: {
                 shadowView.alpha = 0.3
-                toVC.view.frame = CGRect(x: 0,
-                    y: 0,
-                    width: KANavigationDrawerHelper.menuWidth,
-                    height: toVC.view.frame.size.height)
+                toVC.view.center.x += KANavigationDrawerHelper.menuWidth
             },
             completion: { _ in
                 fromVC.view.hidden = false

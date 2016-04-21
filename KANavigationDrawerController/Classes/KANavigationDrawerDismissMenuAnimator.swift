@@ -30,8 +30,7 @@ extension KANavigationDrawerDismissMenuAnimator : UIViewControllerAnimatedTransi
             transitionDuration(transitionContext),
             animations: {
                 shadowView?.alpha = 0.0
-                fromVC.view.frame = CGRect(origin: CGPoint(x: -fromVC.view.bounds.size.width, y: 0),
-                    size: fromVC.view.bounds.size)
+                fromVC.view.center.x -= KANavigationDrawerHelper.menuWidth
             },
             completion: { _ in
                 let didTransitionComplete = !transitionContext.transitionWasCancelled()
